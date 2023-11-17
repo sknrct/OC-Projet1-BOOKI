@@ -12,12 +12,23 @@
 .fa-solid {
     color: var(--main-color);
 }
-
 body {
     display: flex;
     justify-content: center;
 }
-
+header {
+    height: 80px;
+    width: 100%;
+}
+.logo {
+    width: 70%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
 .main-container {
     width: 100%;
     max-width: 1440px;
