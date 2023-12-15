@@ -38,23 +38,43 @@ nav {
   align-items: center;
   gap: 1%;
   border-radius: 15px 0px 0px 15px;
-  background-color:#F2F2F2;
+  width: 40%;
 }
 .search-bar input{
   height: 50px;
-  border: 2px solid grey;
+  border-top: 1px solid rgba(128, 128, 128, 0.5);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+  border-left: none;
+  border-right: none;
+  color: red;
+  /*w3school css type submit*/
 }
-/*.search-bar-logo {
+.search-bar input[type=submit] {
+  height: 50px;
+  border: none;
+  border-radius: 0px 15px 15px 0px;
+  color: white;
+  font-weight: bold;
+  background-color: var(--main-color);
+  /*w3school css type submit*/
+}
+.search-bar-logo {
   border-radius: 15px 0px 0px 15px;
-  background-color:#F2F2F2;
-}*/
+  background-color: #f2f2f2;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
 .filters p {
   display: flex;
-  gap: 1%;
 }
 .filters i {
-  height: 50px;
   margin-right: 10px;
+}
+.filters-list{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
 .filters-list p{
   display: inline;
@@ -64,7 +84,7 @@ nav {
 }
 .filters-list p:hover {
   background: var(--filter-bg-color);
-  border: 3px solid red;
+  cursor: pointer;
 }
 a {
   color: inherit;
