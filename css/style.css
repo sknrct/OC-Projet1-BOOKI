@@ -325,7 +325,6 @@ footer li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: red;
   }
 
   .populaires-cards a {
@@ -360,6 +359,7 @@ footer li {
   }
 
   nav {
+    margin-top: 30px;
     flex-direction: column;
     text-align: center;
     padding: 0;
@@ -438,7 +438,6 @@ footer li {
   }
 
   .populaires-cards {
-    background-color: green;
     display: flex;
     flex-direction: column;
   }
